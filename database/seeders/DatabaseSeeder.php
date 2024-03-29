@@ -20,6 +20,5 @@ class DatabaseSeeder extends Seeder
         // User::factory(10)->create();
 
         Petition::factory(50)->create();
-        Author::factory(400)->create();
     }
 }
